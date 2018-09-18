@@ -1,0 +1,49 @@
+body {
+	font-family: 'Raleway', Helvetica; 
+	background-color: #a9d7d1;
+	text-align: center;
+}
+
+.rowTab {
+	text-align: center;
+}
+
+.labels {
+	display: inline-block;
+	padding: 5px;
+	width: 40%;
+	text-align: right;
+	vertical-align: top;
+}
+
+.userInput {
+	display: inline-block;
+	text-align: left;
+	width: 48%;
+}
+
+.formContainer {
+	background-color: #fafafa;
+	width: 75%;
+	margin: auto;
+}
+
+#submit {
+	background-color: #59ace0;
+	height: 40px;
+	width: 95px;
+	color: #fafafa;
+	border-radius: 4px; 
+	border: 0px solid;
+	margin: 10px;
+	font-size: 1em;
+}
+
+#number {
+	width: 150px;
+}
+
+#comments {
+	width: 300px;
+	height: 100px;	
+}

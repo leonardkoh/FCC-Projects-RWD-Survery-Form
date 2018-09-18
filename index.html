@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="">
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
 	<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
 </head>
 <body>
-	
+	<h1 id="title">Survey Form</h1>
+	<div class="formContainer">
+		<br>
+		<p id="description">A Simple Survey Form for a FCC project</p>
+		<form id="survey-form">
+			<div class="rowTab">
+				<div class="labels">
+					<label id="name-label">Name*:</label>
+				</div>
+				<div class="userInput">
+					<input id="name" type="text" placeholder="Enter a name.." required>
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					<label id="email-label">Email*:</label>
+				</div>
+				<div class="userInput">
+					<input id="email" type="email" placeholder="Enter an email.." required>
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					<label id="number-label">Number*:</label>
+				</div>
+				<div class="userInput">
+					<input id="number" type="number" placeholder="Enter a number.." required min="0" max="9999">
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					Pick an option to make this form happy:
+				</div>
+				<div class="userInput" id="dropdown">
+				 <select>
+				 	<option value="Option 1">Option 1</option>
+				 	<option value="Option 2">Option 2</option>
+				 	<option value="Option 3">Option 3</option>
+				 	<option value="Option 4">Option 4</option>
+				 	<option value="Option 5">Option 5</option>
+				 </select>
+			 	</div><br>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					Now pick check a radio button to make this form happy:
+				</div>
+				<div class="userInput" id="dropdown">
+					<input type="radio" name="items" value="radio1" >R1
+				 	<input type="radio" name="items" value="radio2">R2
+				 	<input type="radio" name="items" value="radio3">R3
+				 	<input type="radio" name="items" value="radio4">R4
+			 	</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					Please select a check box or more if you wish: 
+				</div>
+				<div class="userInput" id="dropdown">
+			 	Checkbox 1<input type="checkbox" value="check1">
+			 	Checkbox 2<input type="checkbox" value="check2">
+			 	Checkbox 3<input type="checkbox" value="check3">
+			 	Checkbox 4<input type="checkbox" value="check4">
+			 	</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					Please enter any additional comments: 
+				</div>
+				<div class="userInput" id="dropdown">
+			 		<textarea id="comments" placeholder="Enter comments here.."></textarea>
+			 	</div>
+			</div>
+			 <button id="submit" value="submit">Submit</button>
+		</form>
+	</div>
 </body>
 </html>
