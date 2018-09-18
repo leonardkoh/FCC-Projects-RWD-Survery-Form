@@ -1,8 +1,6 @@
 # Free Code Camp - Responsive Web Design - Build a Survey Form
 
-<li>
-Free Code Camp - Responsive Web Design - Build a Tribute Page
-
+<ul>
 	<li>User Story #1: I can see a title with id="title" in H1 sized text.</li>
 	<li>User Story #2: I can see a short explanation with id="description" in P sized text.</li>
 	<li>User Story #3: I can see a form with id="survey-form".</li>
@@ -19,5 +17,4 @@ Free Code Camp - Responsive Web Design - Build a Tribute Page
 	<li>User Story #14: Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.</li>
 	<li>User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.</li>
 	<li>User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs</li>
-
-</li>
+</ul>
